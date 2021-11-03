@@ -1,0 +1,265 @@
+@font-face{
+	src: url(../fonts/playfair_Display/PlayfairDisplay-Black.ttf);
+	font-family: 'Playfair Display', serif;
+}
+@font-face{
+	src: url(../fonts/playfair_Display/PlayfairDisplay-Italic.ttf);
+	font-family: 'Playfair Display', serif;
+}
+@font-face{
+	src: url(../fonts/playfair_Display/PlayfairDisplay-Medium.ttf);
+	font-family: 'Playfair Display', serif;
+}	
+@font-face{
+	src: url(../fonts/playfair_Display/PlayfairDisplay-Regular.ttf);
+	font-family: font-family: 'Playfair Display', serif;
+}	
+@font-face{
+	src: url(../fonts/playfair_Display/PlayfairDisplay-SemiBold.ttf);
+	font-family: 'Playfair Display', serif;	
+}@font-face{
+	src: url(../fonts/ubuntu/Ubuntu-Bold.ttf);
+	font-family: 'Ubuntu', sans-serif;	
+}@font-face{
+	src: url(../fonts/ubuntu/Ubuntu-Light.ttf);
+	font-family: 'Ubuntu', sans-serif;	
+}@font-face{
+	src: url(../fonts/ubuntu/Ubuntu-Regular.ttf);
+	font-family: 'Ubuntu', sans-serif;	
+}
+
+body{
+	margin: 0;
+	padding: 0; 
+	font-family:  'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+.header{}
+.wrapper{
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+
+}
+.logo{
+	width: 9%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	padding-top: 9px;
+	width: 60%;
+	float: right;
+	/*border: 1px solid green;*/
+}
+.menu ul{
+	margin: 0;
+	float: right;
+}
+.menu ul li{
+	margin: 0 60px;
+	list-style: none;
+	float: left;
+}
+.menu ul li:last-child{
+	margin-right: 0px;
+
+}
+.menu ul li a{
+	padding-bottom:4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+	border-bottom: 2px solid transparent;
+}
+.menu ul li a:hover{
+	border-bottom: 2px solid #626262;
+}
+.banner{}
+.b_img img{
+	width: 100%;
+}
+/*perfect start*/
+.perfect{
+	padding: 70px 0;
+}
+.wrapper2{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	/*border: 1px solid green;*/
+}
+.p_content{}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:14px 
+	font-weight:300;
+	color:#b4ad9e; 
+	text-transform:uppercase;
+}
+.c_h1{
+	margin: 20px 0 30px;
+	font-size:30px; 
+	font-weight:400;
+}
+.c_text{
+	margin: 0;
+  line-height: 25px;	
+}
+.mb_45{
+	margin-bottom: 45px;
+}
+
+/*perfect end*/
+/*blog1 start*/
+.blog1{}
+.blog_content{}
+.s_blog{
+	margin-bottom: 70px;
+	float: left;
+	width: 47%;
+}
+.s_blog:nth-child(even){
+  margin-left: 6%;
+}
+
+.blog_img{
+	margin-bottom: 25px;
+}
+.blog_img img{
+	width: 100%;
+}
+/*blog1 end*/
+/*<!-- newsletter start -->*/
+.newsletter{
+	margin: 0 0 70px;
+	padding: 80px 0;
+	background-color: #f0f0f0;
+}
+.container4{
+	width: 60%;
+	margin: 0 auto;
+}
+.signup{
+	text-align: center;
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+.for_form{
+	position: relative;
+    width: 40%;
+    margin: 0 auto;
+}
+.for_form input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width: 290px;
+	font-size: 18px;
+	padding: 10px 50px 10px 10px;
+	outline: none;
+	font-family:'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;  
+}
+.for_form button{
+	border: none;
+	position: absolute;
+	top: 10px;
+	right: 50px;
+}
+.sbg{
+	display: inline-block;
+	float: left;
+}
+.sbg:nth-child(even){
+	
+}
+/*<!-- newsletter end -->*/
+.load{
+
+}
+.btn{
+	width: 10%;
+	margin: 0 auto;
+	text-align: center;
+}
+.btn button{
+	margin-bottom: 80px;
+	outline: none;
+	width: 160px;
+	height: 60px;
+	background: transparent;
+	border: none;
+	border: 1px solid #626262; 
+
+}
+.btn button p{
+	margin: 0;
+	font-family:'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400; 
+	color: #626262;
+
+}
+.footer{
+	background: #f0f0f0;	
+}
+.foots{
+	padding: 42px 0;
+
+}
+.terms{
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+.terms p{
+	margin: 0;
+	display: inline-block;
+	color: #000000;
+
+}
+.terms p:nth-child(even){
+	margin-left: 10px;
+}
+.terms p a{
+	text-decoration: none;
+	color: #000000;
+}
+.p1{
+	width: 50%;
+	float: left;
+}
+.p2{
+	width: 45%;
+	float: right;
+}
+.social{
+	width: 10%;
+	float: right;
+	overflow: hidden;
+}
+.social p{
+	margin: 0;
+	width: 35%;
+	float: left;
+}
+.so_img{
+	width: 52%;
+	float: right;
+}
+.so_img img{
+	margin: 0 5px;
+}
